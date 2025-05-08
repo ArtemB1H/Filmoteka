@@ -16,7 +16,7 @@ namespace flimoteka
 
     public class DB_connect
     {
-        SqlConnection connectBD = new SqlConnection(@"Data Source = dyuhahome.ddns.net,1381; Initial Catalog = FilmotekaDB; User ID = sh1f; Password = 13791379; Encrypt = False; Trust Server Certificate = True; Application Intent = ReadWrite; Multi Subnet Failover = False");
+        SqlConnection connectBD = new SqlConnection(@"Data Source = ; Initial Catalog = FilmotekaDB; User ID = ; Password = ; Encrypt = False; Trust Server Certificate = True; Application Intent = ReadWrite; Multi Subnet Failover = False");
         public void openConnection()
         {
             try
